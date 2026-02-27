@@ -1,2 +1,5 @@
 print("Hello World")
 print("")
+print("Hello Patrick")
+print("I say FRIDAY")
+print("you say party")
