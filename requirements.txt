@@ -1,33 +1,30 @@
-# jupyterlab<4.0
-# jupyterlab-git  # >=0.50.0a2 # if working with Lab 4.x
-notebook  # alternatively jupyter notebook
-
+# Standard Data Science packages
 numpy
 pandas
 matplotlib
 
-xlrd  # for Excel parsing for pandas
-holidays
-
-pandapower>=2.14.11  # Require up to date version
+# Power system analysis and related tools
+pandapower>=2.14.11
 simbench
-
-# pandapower dependencies
-numba<0.60  # Newest version has problem with VSCode debugger # For faster calculations
+pvlib
+demandlib
+numba # For faster calculations; note the version constraint
 openpyxl  # If writing to Excel
 
-demandlib  # BDEV standard load profiles
-pvlib
+# Jupyter and related tools
+notebook
+# jupyterlab<4.0  # Uncomment if you need a specific JupyterLab version
+# jupyterlab-git  # Uncomment if working with JupyterLab Git extension
 
-# Optional
-python-igraph
-mitosheet
-
-# Dash
+# Dash for web applications
 plotly
 dash
 dash_bootstrap_components
 
+# Other utilities
+xlrd  # for Excel parsing for pandas
+holidays
+mitosheet
 
 # Code Formatting
 black
