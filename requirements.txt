@@ -24,7 +24,7 @@ dash_bootstrap_components
 # Other utilities
 xlrd  # for Excel parsing for pandas
 holidays
-mitosheet
+# mitosheet
 
 # Code Formatting
 black
