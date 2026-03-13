@@ -4,7 +4,7 @@ pandas
 matplotlib
 
 # Power system analysis and related tools
-pandapower>=2.14.11
+pandapower[all]
 simbench
 pvlib
 demandlib
