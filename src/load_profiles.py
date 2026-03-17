@@ -42,6 +42,7 @@ def get_profile_from_file(fp: Path, type: str = "H0") -> pd.DataFrame:
 
 def dynamize_day(ser: pd.Series, dayofyear: int) -> pd.Series:
     """Dynamize profile 15 minute series by dayofyear."""
+    dayofyear = int(dayofyear)
     dynamization_value = (
         np.power(dayofyear, 4) * A4
         + np.power(dayofyear, 3) * A3
