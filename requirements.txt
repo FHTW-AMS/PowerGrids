@@ -4,7 +4,7 @@ pandas
 matplotlib
 
 # Power system analysis and related tools
-pandapower>=2.14.11
+pandapower[all]
 simbench
 pvlib
 demandlib
@@ -24,7 +24,7 @@ dash_bootstrap_components
 # Other utilities
 xlrd  # for Excel parsing for pandas
 holidays
-mitosheet
+# mitosheet
 
 # Code Formatting
 black
