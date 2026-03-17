@@ -9,7 +9,7 @@ The notebooks contain explanations and best practices and will be expanded durin
 The repository can be downloaded after installing git with the command shown above.
 
 ```bash
-git clone https://github.com/skloibhofer/fh-pandapower-cosimulation.git
+git clone https://github.com/FHTW-AMS/PowerGrids.git
 ```
 
 The notebook *00_prerequisites.ipynb* describes the use of version control,
